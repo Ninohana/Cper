@@ -1,0 +1,120 @@
+#pragma once
+
+const char PITCH_REST = 0xCC;
+
+const char PITCH_C1		=	0x01;
+const char PITCH_C1S	=	0x02;
+const char PITCH_D1		=	0x03;
+const char PITCH_D1S	=	0x04;
+const char PITCH_E1		=	0x05;
+const char PITCH_F1		=	0x06;
+const char PITCH_F1S	=	0x07;
+const char PITCH_G1		=	0x08;
+const char PITCH_G1S	=	0x09;
+const char PITCH_A1		=	0x0A;
+const char PITCH_A1S	=	0x0B;
+const char PITCH_B1		=	0x0C;
+
+const char PITCH_C2		=	0x0D;
+const char PITCH_C2S	=	0x0E;
+const char PITCH_D2		=	0x0F;
+const char PITCH_D2S	=	0x10;
+const char PITCH_E2		=	0x11;
+const char PITCH_F2		=	0x12;
+const char PITCH_F2S	=	0x13;
+const char PITCH_G2		=	0x14;
+const char PITCH_G2S	=	0x15;
+const char PITCH_A2		=	0x16;
+const char PITCH_A2S	=	0x17;
+const char PITCH_B2		=	0x18;
+
+const char PITCH_C3		=	0x19;
+const char PITCH_C3S	=	0x1A;
+const char PITCH_D3		=	0x1B;
+const char PITCH_D3S	=	0x1C;
+const char PITCH_E3		=	0x1D;
+const char PITCH_F3		=	0x1E;
+const char PITCH_F3S	=	0x1F;
+const char PITCH_G3		=	0x20;
+const char PITCH_G3S	=	0x21;
+const char PITCH_A3		=	0x22;
+const char PITCH_A3S	=	0x23;
+const char PITCH_B3		=	0x24;
+
+const char PITCH_C4		=	0x25;
+const char PITCH_C4S	=	0x26;
+const char PITCH_D4		=	0x27;
+const char PITCH_D4S	=	0x28;
+const char PITCH_E4		=	0x29;
+const char PITCH_F4		=	0x2A;
+const char PITCH_F4S	=	0x2B;
+const char PITCH_G4		=	0x2C;
+const char PITCH_G4S	=	0x2D;
+const char PITCH_A4		=	0x2E;
+const char PITCH_A4S	=	0x2F;
+const char PITCH_B4		=	0x30;
+
+const char PITCH_C5		=	0x31;
+const char PITCH_C5S	=	0x32;
+const char PITCH_D5		=	0x33;
+const char PITCH_D5S	=	0x34;
+const char PITCH_E5		=	0x35;
+const char PITCH_F5		=	0x36;
+const char PITCH_F5S	=	0x37;
+const char PITCH_G5		=	0x38;
+const char PITCH_G5S	=	0x39;
+const char PITCH_A5		=	0x3A;
+const char PITCH_A5S	=	0x3B;
+const char PITCH_B5		=	0x3C;
+
+const char PITCH_C6		=	0x3D;
+const char PITCH_C6S	=	0x3E;
+const char PITCH_D6		=	0x3F;
+const char PITCH_D6S	=	0x40;
+const char PITCH_E6		=	0x41;
+const char PITCH_F6		=	0x42;
+const char PITCH_F6S	=	0x43;
+const char PITCH_G6		=	0x44;
+const char PITCH_G6S	=	0x45;
+const char PITCH_A6		=	0x46;
+const char PITCH_A6S	=	0x47;
+const char PITCH_B6		=	0x48;
+
+const char PITCH_C7		=	0x49;
+const char PITCH_C7S	=	0x4A;
+const char PITCH_D7		=	0x4B;
+const char PITCH_D7S	=	0x4C;
+const char PITCH_E7		=	0x4D;
+const char PITCH_F7		=	0x4E;
+const char PITCH_F7S	=	0x4F;
+const char PITCH_G7		=	0x50;
+const char PITCH_G7S	=	0x51;
+const char PITCH_A7		=	0x52;
+const char PITCH_A7S	=	0x53;
+const char PITCH_B7		=	0x54;
+
+const char PITCH_C8		=	0x55;
+const char PITCH_C8S	=	0x56;
+const char PITCH_D8		=	0x57;
+const char PITCH_D8S	=	0x58;
+const char PITCH_E8		=	0x59;
+const char PITCH_F8		=	0x5A;
+const char PITCH_F8S	=	0x5B;
+const char PITCH_G8		=	0x5C;
+const char PITCH_G8S	=	0x5D;
+const char PITCH_A8		=	0x5E;
+const char PITCH_A8S	=	0x5F;
+const char PITCH_B8		=	0x60;
+
+const char PITCH_C9		=	0x61;
+const char PITCH_C9S	=	0x62;
+const char PITCH_D9		=	0x63;
+const char PITCH_D9S	=	0x64;
+const char PITCH_E9		=	0x65;
+const char PITCH_F9		=	0x66;
+const char PITCH_F9S	=	0x67;
+const char PITCH_G9		=	0x68;
+const char PITCH_G9S	=	0x69;
+const char PITCH_A9		=	0x6A;
+const char PITCH_A9S	=	0x6B;
+const char PITCH_B9		=	0x6C;
