@@ -43,7 +43,7 @@ B4=a
 …… 
 ```
 
-保存为*custom.ckm*然后用`-m`参数传入即可，例如：`cpera.ext -m "config\custom.ckm" -t "score\test.txt"`。
+保存为*custom.ckm*然后用`-m`参数传入即可，例如：`cpera.exe -m "config\custom.ckm" -t "score\test.txt"`。
 
 ## 用法
 
@@ -114,5 +114,7 @@ B4=a
   驱动程序项目
 
 ## 备注
+
+作者没有售卖乐谱，请不要相信。欢迎大家提issue，乐谱文件也可以pr（放在<u>score</u>目录下）。
 
 驱动代码部分只修改了部分配置，感谢驱动程序原作者的开源奉献。
