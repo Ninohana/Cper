@@ -54,7 +54,9 @@ B4=a
    > 在Windows10及以上，管理员模式的命令行中，执行如下命令：
    > 
    > bcdedit /set nointegritychecks on
+   > 
    > bcdedit /set testsigning on
+   > 
    > 需要重启以便生效。
 
 2. 安装驱动
