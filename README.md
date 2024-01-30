@@ -115,6 +115,10 @@ B4=a
   
   驱动程序项目
 
+## Sponsor
+
+有条件的话，可以请我氪个首充：[爱发电](https://afdian.net/a/ninohana)
+
 ## 备注
 
 作者没有售卖乐谱，请不要相信。欢迎大家提issue，乐谱文件也可以pr（放在<u>score</u>目录下）。
