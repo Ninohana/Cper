@@ -49,7 +49,7 @@ B4=a
 
 > 为了物理上模拟按键（更精确地控制以及一些程序会有保护措施），程序使用了驱动。
 
-下载或者克隆项目，用Visual Studio 2022（推荐）打开根目录下的Cper.sln，生成->生成解决方案。或直接下载Release。
+下载或者克隆项目，用Visual Studio 2022（推荐）打开根目录下的Cper.sln，生成->生成解决方案。
 
 1. 关闭签名校验，开启调试模式
    
@@ -61,7 +61,7 @@ B4=a
    
    需要重启以便生效。
 
-3. 安装驱动
+2. 安装驱动
    
    以微软的devcon工具为例，切换到<u>KMDFDriver</u>目录，执行以下命令：
    
@@ -71,7 +71,7 @@ B4=a
    
    `devcon.exe install hidriver.inf "root\hidriver"`
 
-5. 命令行执行`cpera.exe -t "score\test.txt","score\test_.txt"`
+3. 命令行执行`cpera.exe -t "score\test.txt","score\test_.txt"`
 
 ## 乐谱命令
 
@@ -114,6 +114,10 @@ B4=a
 - sys
   
   驱动程序项目
+
+## Sponsor
+
+有条件的话，可以请我氪个首充：[爱发电](https://afdian.net/a/ninohana)
 
 ## 备注
 
