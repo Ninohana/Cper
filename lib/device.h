@@ -5,7 +5,7 @@
 class Device
 {
 private:
-	HANDLE mp_device;
+	HANDLE mp_device = INVALID_HANDLE_VALUE;
 
 public:
 	Device(PCWSTR deviceInterface);

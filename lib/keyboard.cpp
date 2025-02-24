@@ -7,11 +7,6 @@
 
 #include <iostream>
 
-Keyboard::Keyboard() :Device{ L"\\\\?\\HID#VARIABLE_6&Col04#1" }
-{
-	std::cout << "键盘设备初始化成功" << std::endl;
-}
-
 void Keyboard::down(BYTE* keyCodes, BYTE modifier)
 {
 	Report report = {

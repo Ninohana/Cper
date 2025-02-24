@@ -2,8 +2,6 @@
 
 #include "device.h"
 
-#include <Windows.h>
-
 class Keyboard : public Device
 {
 private:
@@ -17,7 +15,7 @@ private:
 #pragma pack()
 
 public:
-	explicit Keyboard();
+	explicit Keyboard() :Device(L"\\\\?\\HID#HIDCLASS&Col04#1") {}
 
 	void down(BYTE* keyCodes, BYTE modifier);
 	void up();

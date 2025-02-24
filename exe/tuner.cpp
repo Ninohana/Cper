@@ -1,11 +1,8 @@
 #include "tuner.hpp"
-#include "../dll/keyboard.h"
-#include "../dll/device.h"
+#include "../dll/cper.h"
 
 #include <mutex>
 #include <vector>
-
-static HANDLE hKeyboard = OpenVirtualDevice(VIRTUAL_DEVICE_KEYBOARD);
 
 std::mutex mutex;
 
@@ -22,7 +19,7 @@ void apply(const std::set<CKey>& combination)
 		modifier |= it->modifier;
 	}
 
-	KeyDown(hKeyboard, keyCodes.data(), modifier);
+	KeyDown(keyCodes.data(), modifier);
 }
 
 void press(const std::set<CKey>& keys)
@@ -36,7 +33,7 @@ void press(const std::set<CKey>& keys)
 	apply(copy);
 }
 
-void uplift(const std::set<CKey>& keys)
+void release(const std::set<CKey>& keys)
 {
 	
 	mutex.lock();
@@ -46,6 +43,6 @@ void uplift(const std::set<CKey>& keys)
 	mutex.unlock();
 
 	if (combination.empty())
-		KeyUp(hKeyboard);
+		KeyUp();
 	else apply(copy);
 }

@@ -58,7 +58,7 @@ void Splayer::knock(const std::vector<std::string>& pitches)
 	
 	press(set);
 	this->rest();
-	uplift(set);
+	release(set);
 }
 
 void Splayer::call(const std::string& command, const std::string& parameter)

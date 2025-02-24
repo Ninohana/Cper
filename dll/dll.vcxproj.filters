@@ -21,13 +21,7 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="device.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="keycode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="keyboard.h">
+    <ClInclude Include="cper.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -36,12 +30,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="device.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="keyboard.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
